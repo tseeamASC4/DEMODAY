@@ -53,7 +53,7 @@ function initializeClock(id, endtime) {
   var timeinterval = setInterval(updateClock, 1000);
 }
 
-var deadline = new Date(Date.parse(new Date()) +   180 *  1000);
+var deadline = new Date(Date.parse(new Date()) +    /*180 * */  7000);
 initializeClock('clockdiv', deadline);
 
 }
@@ -77,7 +77,7 @@ $(document).ready(setup);
 
 
 function updateDB(){
-function onSignIn(googleUser) {
+function SignedIn(googleUser) {
 
 
 
