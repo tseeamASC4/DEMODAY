@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+
+<html>
+
+
+<head>
+<script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDId2w9hc3mpTgt9imRawtOgMd-LH72DLY",
+    authDomain: "the-writers-playground-e90e7.firebaseapp.com",
+    databaseURL: "https://the-writers-playground-e90e7.firebaseio.com",
+    projectId: "the-writers-playground-e90e7",
+    storageBucket: "",
+    messagingSenderId: "789029819712"
+  };
+  firebase.initializeApp(config);
+</script>
+
+
+
+     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js'></script>
+     <script src='words.js'></script>
+     <link href='mainpage.css' rel='stylesheet'></link>
+
+
+</head>
+
+
+<body> 
+
+    <div class='word'>
+    </div>
+
+    <p1> Write Your Own Story With The Given Noun </p1> <form><input type=button value="Get another Word" onClick="window.location.reload()"></form>
+<div class='timer'>
+    </div>
+ <div class= 'story'>
+    <form>
+    <textarea rows="5" cols="20" input id="story" type="text">
+    </textarea>
+    </form>  
+</div> 
+             
+
+          <!--<p>Your Story:</p><input id="story" type="text">-->
+
+<h1>Timer</h1>
+<div id="clockdiv">
+  <div>
+    <span class="minutes"></span>
+    <div class="smalltext">Minutes</div>
+  </div>
+  <div>
+    <span class="seconds"></span>
+    <div class="smalltext">Seconds</div>
+  </div>
+</div>
+<div class ='sdi'>
+    <h1> Your story: </h1>;
+    </div>
+    <div class="GObutton">
+        <input type="reset" onclick="updateDB()" value="UPLOAD YOUR STORY !!">
+    </div>
+</body>
+
+
+</html>

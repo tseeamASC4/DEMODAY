@@ -1,0 +1,20 @@
+#story {
+    text-align: center;
+    height: 400px;
+    width: 1000px;
+    background-color: powderblue;
+}
+
+
+p1 {
+    text-align: center;
+}
+
+body {
+    color: red;
+    text-align: center;
+    background: url('https://s-media-cache-ak0.pinimg.com/originals/b3/07/c5/b307c5e5227d5a4b753c4d5307e7d981.jpg');
+    font-size: 38px;
+
+ }
+

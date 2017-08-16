@@ -1,0 +1,79 @@
+#story {
+    text-align: center;
+    height: 400px;
+    width: 1000px;
+    background-color: powderblue;
+}
+
+
+
+p1 {
+    text-align: center;
+}
+
+/*body {
+    color: red;
+    text-align: center;
+    font-size: 38px;
+    background: url('https://s-media-cache-ak0.pinimg.com/originals/b3/07/c5/b307c5e5227d5a4b753c4d5307e7d981.jpg');
+
+ }*/
+
+.word{
+    font-size: 40px
+}
+
+
+
+ body{
+	text-align: center;
+	background: #00ECB9;
+  font-family: sans-serif;
+  font-weight: 100;
+  overflow: hidden;
+}
+
+h1{
+  color: #396;
+  font-weight: 100;
+  font-size: 40px;
+  margin: 40px 0px 20px;
+}
+
+#clockdiv{
+	font-family: sans-serif;
+	color: #fff;
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+	font-size: 30px;
+}
+
+#clockdiv > div{
+	padding: 10px;
+	border-radius: 3px;
+	background: #00BF96;
+	display: inline-block;
+}
+
+#clockdiv div > span{
+	padding: 15px;
+	border-radius: 3px;
+	background: #00816A;
+	display: inline-block;
+}
+
+.smalltext{
+	padding-top: 5px;
+	font-size: 16px;
+}
+
+sdi{
+    background: whitesmoke
+}
+
+story{
+    word-wrap: break-word;
+    word-break: break-all;
+    height: 80px;
+}

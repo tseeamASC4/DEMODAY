@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+
+<html>
+
+
+<head>
+     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js'></script>
+     <script src='words.js'></script>
+     <link href='style.css' rel='stylesheet'></link>
+</head>
+
+
+<body>  
+    <div class='word'>
+    </div>
+
+    <p1> Write Your Own Story With The Given Noun </p1> <form><input type=button value="Get another Word" onClick="window.location.reload()"></form>
+
+<div>
+                    <p>Your Story:</p><input id="story" type="text">
+                </div>
+
+</body>
+
+
+</html>
